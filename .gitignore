@@ -1,0 +1,38 @@
+*.pb
+*.gz
+
+# ignore ALL .log files
+*.log
+
+*.csv
+
+*.index
+
+*.data-00000-of-00001
+
+ipynb_checkpoints
+my_checkpoints.index
+my_checkpoints.data-00000-of-00001
+
+# ignore ALL files in ANY directory named temp
+temp/
+keras_model_7/
+my_fashion_mnist/
+.ipynb_checkpoints/
+UrbanSound8K/
+
+# ignore all image files
+*.png
+*.jpg
+*.jpeg
+
+#ignore all the keras model (*.h5) files
+*.h5
+
+#igonore hdf5 file
+*.hdf5
+
+#ignore all audio (mp3, wav) files
+*.mp3
+*.wav
+
